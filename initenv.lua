@@ -9,7 +9,7 @@ have_qt = pcall(require, 'qt')
 require 'mfc'
 require "trace"
 require "qtable"
-require "insertSortList"
+require "kdtree/kdtree"
 
 function setup ()
 	torch.setdefaulttensortype('torch.FloatTensor')
